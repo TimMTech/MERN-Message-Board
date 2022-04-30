@@ -4,7 +4,7 @@
   "description": "Backend for App",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "Tim Mukhamedov",
   "license": "ISC",
