@@ -5,7 +5,7 @@ const dotenv = require('dotenv')
 const routerUrls = require('./Routes/routes')
 const mongoose = require('mongoose')
 const path = require('path')
-const publicPath = path.join(__dirname, '../frontend/', 'public')
+const publicPath = path.join(__dirname, 'frontend', 'public')
 
 app.use(express.static(publicPath));
 
