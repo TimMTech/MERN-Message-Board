@@ -6,6 +6,7 @@ const routerUrls = require('./Routes/routes')
 const mongoose = require('mongoose')
 const path = require('path')
 const publicPath = path.join(__dirname, 'frontend', 'public')
+const port = process.env.PORT || 3000
 
 app.use(express.static(publicPath));
 
@@ -25,5 +26,5 @@ mongoose.connect(
 app.use(express.json())
 app.use(cors())
 app.use('/app', routerUrls)
-app.listen(3000, () => console.log(`Server Connected`))
+app.listen(port, () => console.log(`Server Connected`))
 
