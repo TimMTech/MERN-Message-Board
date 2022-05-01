@@ -19,7 +19,5 @@
     "url": "https://github.com/TimMTech/MERN-Message-Board/issues"
   },
   "homepage": "https://github.com/TimMTech/MERN-Message-Board#readme",
-  "devDependencies": {
-    "react-router-dom": "^6.3.0"
-  }
+  "devDependencies": {}
 }
