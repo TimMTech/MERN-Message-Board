@@ -17,9 +17,9 @@ mongoose.connect(
 app.use(express.json())
 app.use(cors())
 
-if (process.env.NODE_ENV === 'production') {
-    app.use(express.static('frontend/build'))
-}
+
+app.use(express.static('frontend/build'))
+
 
 app.use('/app', routerUrls)
 app.listen(PORT, () => console.log(`Server Connected`))
