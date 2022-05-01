@@ -2,7 +2,7 @@ import axios from "axios"
 
 const getMessage = (callBack) => {
     axios
-      .get("http://mern-message-app.herokuapp.com/app/posts")
+      .get("https://mern-message-app.herokuapp.com/app/posts")
       .then((response) => {
         callBack(response.data);
       })
