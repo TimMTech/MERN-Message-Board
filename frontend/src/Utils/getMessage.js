@@ -2,7 +2,7 @@ import axios from "axios"
 
 const getMessage = (callBack) => {
     axios
-        .get('http://localhost:5000/app/posts')
+        .get('http://localhost:3000/app/posts')
         .then((response) => {
             callBack(response.data)
         })

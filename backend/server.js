@@ -6,7 +6,7 @@ const routerUrls = require('./Routes/routes')
 const mongoose = require('mongoose')
 const path = require('path')
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 3000
 __dirname = path.resolve()
 
 dotenv.config()
