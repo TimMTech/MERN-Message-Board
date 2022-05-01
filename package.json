@@ -2,13 +2,12 @@
   "name": "mern-message-board",
   "version": "1.0.0",
   "description": "",
-  "main": "backend/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cd frontend && npm run build",
     "install-frontend": "cd frontend && npm install",
     "heroku-postbuild": "npm run install-frontend && npm run build",
-    "start": "node server.js"
+    "start": "cd backend && nodemon server.js"
   },
   "repository": {
     "type": "git",
