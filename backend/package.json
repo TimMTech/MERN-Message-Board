@@ -4,7 +4,8 @@
   "description": "Backend for App",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
   },
   "author": "Tim Mukhamedov",
   "license": "ISC",
