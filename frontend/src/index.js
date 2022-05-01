@@ -7,7 +7,7 @@ import "./index.css"
 
 ReactDom.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/">
       <App />
     </Router>
   </React.StrictMode>,
