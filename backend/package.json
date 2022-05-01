@@ -8,8 +8,7 @@
     "npm": "6.14.15"
   },
   "scripts": {
-    "start": "node server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
+    "start": "nodemon server.js"
   },
   "author": "Tim Mukhamedov",
   "license": "ISC",
